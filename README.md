@@ -1,7 +1,7 @@
-# Frequency Analysis of Words
+Частотный анализ слов
 
-[TODO. There will be project description]
+Скрипт принимает на вход путь до текстового файла и считает 10 самых часто используемых слов, выводя их в порядке убывания
 
-# Project Goals
+Как использовать 
 
-The code is written for educational purposes. Training course for web-developers - [DEVMAN.org](https://devman.org)
+Вызываем скрипт через терминал и пишем путь до файла. Пример: lang_frenquency.py test.txt
