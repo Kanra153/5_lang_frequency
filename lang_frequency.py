@@ -5,7 +5,7 @@ import sys
 def load_data(filepath):
     with open(filepath, "r") as textfile:
         text = textfile.read()
-    return tet
+    return text
    
 def get_most_frequent_words(text):
     words = text.split()
