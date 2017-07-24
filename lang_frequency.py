@@ -22,5 +22,7 @@ if __name__ == '__main__':
             print(prettify)
     except IndexError:
         print('Вы не ввели путь до текстового файла')
+    except FileNotFoundError:
+        print('Вы ввели неправильный путь до текстового файла')   
     
   
